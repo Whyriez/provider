@@ -33,7 +33,7 @@ export const doodScraper = makeEmbed({
         {
           id: 'primary',
           type: 'file',
-          disabled: true,
+          // disabled: true,
           flags: [flags.CORS_ALLOWED],
           captions: [],
           qualities: {

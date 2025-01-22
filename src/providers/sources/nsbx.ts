@@ -49,7 +49,7 @@ export const nsbxScraper = makeSourcerer({
   name: 'NSBX',
   rank: 150,
   flags: [flags.CORS_ALLOWED],
-  disabled: true,
+  // disabled: true,
   scrapeMovie: comboScraper,
   scrapeShow: comboScraper,
 });
